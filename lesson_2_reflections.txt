@@ -1,0 +1,19 @@
+What happens when you initialize a repository?
+Why do you need to do it?
+
+The current path is declared a repository.
+It is neccessary for git to know that this 
+path is now a repository. 
+
+===============================================
+
+How is the staging area different from the
+working directory and the respository? What
+value do you think it offers?
+
+The staging are is a kind of parking space
+between the working directory and the repository.
+Here you can choose which files you want to 
+commit, before you actually execute the commit. 
+It is practically, because sometimes you have
+experimantal files you do not want to commit.
