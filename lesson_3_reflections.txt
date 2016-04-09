@@ -1,0 +1,5 @@
+When would you want to use a remote repostiroy
+rather than keeping all your work local?
+
+Everytime I want to share my work, or when
+I'm working on different computers.
