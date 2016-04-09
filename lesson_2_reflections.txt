@@ -17,3 +17,61 @@ Here you can choose which files you want to
 commit, before you actually execute the commit. 
 It is practically, because sometimes you have
 experimantal files you do not want to commit.
+
+================================================
+
+How can you use the staging area to make sure
+you have one commit per logical change?
+
+When you made changes to several files that 
+were multiple logical changes you can just add
+the files of one logical change and commit
+only them as one logical change.
+
+===============================================
+
+What are some situations when branches would be
+helpful in keeping your history organized? How
+would branches help?
+
+The are helpful when you want to create a new
+version of your app, but want to keep the 
+original version intact ans develop it parallel.
+
+===============================================
+
+How do the diagrams help you visualize the branch
+structure?
+
+With help of the diagrams it is much easier to
+see where a new branch was created. Without them
+I would have to compare two, or even more logs
+commit by commit to see where they differ the 
+first time.
+
+===============================================
+
+What is the result of merging two branches
+together? Why do we represent it in the diagram
+the way we do?
+
+The result of mergin two branches is that all
+changes made in both branches are combinded 
+into one branch. This way we don't have two
+versions of our code anymore. By representing 
+it in the diagram the way we do it is much easier
+to see which commits were made before the merge.
+
+================================================
+
+What are the pros and cons of GIT's automatic
+mergin vs. always doing merges manually?
+
+Pros of the automatic merging ist thar it saves
+a lot of time. And it also reduces the chances 
+of an error whil manually copying your changes
+into the new file. 
+The cons are that it is possible that lines are
+added which conflict with the rest of the code
+which can lead to new bugs.
+
